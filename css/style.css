@@ -376,6 +376,7 @@ nav{
   .box_left{
     width: 193px;
   }
+  .box_right{width: 704px;}
     .torrent_lk{
       display: block;
       background: #46a9ca;
@@ -408,6 +409,7 @@ nav{
     }
 .tabs_menu_it{
   background: #f8f8f8;
+  width: 97px;
   border: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc !important;
   border-left: none;
@@ -415,28 +417,97 @@ nav{
 }
   .tabs_menu_lk{
     display: block;
+    width: auto;
     text-align: center;
   }
   .tabs_menu_it:first-child{border-left: 1px solid #cccccc;}
     .tabs_title_top{
       display: block;
-      width: 97px;
       margin: 12px 0 0px 0;
       font-size: 16px;
       line-height: 33px;
       font-weight: 700;
       color: #5a5a5a;
     }
+    .ui-tabs .ui-tabs-nav li.ui-tabs-active .tabs_title_top,
+    .ui-tabs .ui-tabs-nav li.ui-tabs-active .tabs_title_bottom{color: #fff;}
     .frame{
       height: 33px;
       background: url(../images/frame_bg.png) center 0 no-repeat;
     }
+    .ui-tabs .ui-tabs-nav li.ui-tabs-active .frame{background-position: center bottom;}
     .tabs_title_bottom{
+      display: block;
+      padding: 10px 0 2px 0;
       font-size: 11px;
       line-height: 11px;
       color: #777777;
     }
-
+  .tabs_it{background: #484848;}
+  .list1_title{
+    font-size: 13px;
+    line-height: 30px;
+    color: #fff;
+    width: 190px;
+  }
+  .list1{
+    margin-left: 28px;
+  }
+    .list1 tr{border-top: 1px solid #565656;}
+    .list1 tr:first-child{border-top: none;}
+  .list1_col1{
+    width: 110px;
+  }
+  .list1_col2{
+    width: 190px;
+  }
+  .list1_col3{
+    width: 170px;
+  }
+  .list1_col1,.list1_col2,.list1_col3{
+    font-size: 13px;
+    line-height: 30px;
+    color: #909090;
+  }
+.box_right_text{
+  margin-right: 12px;
+  padding-top: 10px;
+}
+  .list2_it{
+    padding-bottom: 5px;
+    overflow: hidden;
+  }
+  .list2_title{
+    display: block;
+    width: 12%;
+  }
+  .list2_con{
+    display: block;
+    width: 75%;
+  }
+.comments_box{
+  width: 390px;
+  padding-top: 12px;
+}
+  .comments{
+    padding: 18px 10px 11px 20px;
+    background: #2c2c2c;
+    margin-bottom: 12px;
+  }
+    .comments_text{
+      font-size: 14px;
+      line-height: 16px;
+      color: #fff;
+      padding-right: 110px;
+    }
+    .naim{
+      display: block;
+      font-size: 14px;
+      line-height: 16px;
+      color: #fff;
+      font-style: italic;
+      text-align: right;
+    }
 /*=====================> Content ========================*/
 #content {padding:0px 0px 0px 0px;}
 .cont_pad{padding:0 0 0 0 !important;}
