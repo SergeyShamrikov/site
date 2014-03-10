@@ -7,6 +7,7 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script src="js/jquery-migrate-1.1.1.js"></script>
 </head>
@@ -17,7 +18,7 @@
 	    <div class="main">
         <h1 class="logo"><a href="index.html">FilmStor</a></h1>
               <div class="search_box clearfix">
-                <input class="seach bdrs f_left" type="seach" value="Поиск"onblur="if(this.value=='') this.value='Поиск'" onfocus="if(this.value =='Поиск' ) this.value=''">
+                <input class="seach bdrs f_left" type="seach" value="Поиск" onblur="if(this.value=='') this.value='Поиск'" onfocus="if(this.value =='Поиск' ) this.value=''">
                 <button class="seach_img bdrs f_left"></button>
               </div>
       </div>
@@ -338,6 +339,13 @@
       $(document).ready(function() {
  
         var owl = $("#owl_carousel");
+
+        $('.owl-buttons').on('click','[class^="owl"]',function(){
+
+          alert($(this)); 
+
+        });
+
        
         owl.owlCarousel({
            
